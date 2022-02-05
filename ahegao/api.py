@@ -4,9 +4,8 @@ import logging
 from .exceptions import ApiError, AuthorizationFailed
 from .__version__ import __version__, __build__
 
-# API_URL = "https://api.ahegao.ovh/"
-# API_URL = "https://api-dev.sssr.dev/"
-API_URL = "http://127.0.0.1:10808/"
+API_URL = "https://api.ahegao.ovh/"
+# API_URL = "http://127.0.0.1:10808/"
 
 
 class APISession:
